@@ -1,0 +1,15 @@
+.dashboard-container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.dashboard-container .btn {
+    display: block;
+    width: 200px;
+    margin: 15px auto;
+    padding: 12px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}

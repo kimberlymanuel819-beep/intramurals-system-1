@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<form onsubmit="event.preventDefault(); login();">
+
+    <h2>Login</h2>
+
+    <input type="text" id="name" placeholder="Username" required>
+
+    <input type="password" id="password" placeholder="Password" required>
+
+    <select id="role">
+        <option value="Student">Student</option>
+        <option value="Admin">Admin</option>
+    </select>
+
+    <a href="registration.html" class="btn">
+        Log In
+    </a>
+
+</form>
+
+<script src="js/auth.js"></script>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>

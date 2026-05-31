@@ -1,0 +1,23 @@
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+.form-wrapper {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.form-box {
+    width: 350px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.form-box h2 {
+    margin-bottom: 10px;
+}
